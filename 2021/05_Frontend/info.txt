@@ -3,3 +3,4 @@ Clase de Julio 21, 2021
     React Hooks, Información recopilandose en Notion.
     Se continuan trabajos de practica en clase dentro de Repositorio de Tests G7.
 
+    (dentro de 01-hooks practicar en API de R&M con hooks)
