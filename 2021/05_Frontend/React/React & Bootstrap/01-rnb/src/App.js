@@ -1,6 +1,7 @@
 // Aplicando React-Bootstrap en App.js
 
 import React from 'react'
+import './App.css'
 
 import { Nav, Card, Button } from 'react-bootstrap'
 
@@ -9,20 +10,20 @@ function App() {
   return (
     <>
       <header>
-        <h1>Header</h1>
-        <Nav className="justify-content-center" activeKey="/home">
+        {/* <h1>Header</h1> */}
+        <Nav className="justify-content-center navColor" activeKey="/home">
           <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
+            <Nav.Link eventKey="link-1">About</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
+            <Nav.Link eventKey="link-2">Get Started</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="disabled" disabled>
-              Disabled
+              Login
       </Nav.Link>
           </Nav.Item>
         </Nav>
