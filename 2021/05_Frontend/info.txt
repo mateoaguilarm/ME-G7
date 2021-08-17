@@ -13,3 +13,9 @@ Agosto 11, 2021
 
     React Router
     // Faltante: Router Config
+
+// Semana 2
+
+Agosto 16, 2021
+
+    Deployment (sera trabajada en testsFolder)
