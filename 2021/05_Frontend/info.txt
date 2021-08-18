@@ -19,3 +19,7 @@ Agosto 11, 2021
 Agosto 16, 2021
 
     Deployment (sera trabajada en testsFolder)
+
+Agosto 17, 2021
+
+    React Context
