@@ -1,8 +1,8 @@
-import react from 'react';
+import { useState, createContext } from 'react';
 
-const themeContext = React.createContext(false);
+const themeContext = createContext(false);
 
-function themeProvider({children}) {
+function ThemeProvider({children}) {
     const [ toggle, setToggle ] = useState(false);
     const toggleFunc = setToggle(!toggle)
 
@@ -13,4 +13,4 @@ function themeProvider({children}) {
     )
 }
 
-export {themeContext, themeProvider };
+export {themeContext, ThemeProvider };
