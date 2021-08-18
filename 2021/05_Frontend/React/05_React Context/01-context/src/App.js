@@ -11,9 +11,11 @@ function App() {
     <div className="App">
       <h1>hola en app 💻</h1>
 
-      <Header />
-      <Main />
-      <Footer />
+      <ThemeProvider>
+        <Header />
+        <Main />
+        <Footer />
+      </ThemeProvider>
 
     </div>
   );
