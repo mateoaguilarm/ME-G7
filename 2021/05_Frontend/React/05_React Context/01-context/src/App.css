@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(255, 253, 226);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border:0;
+  color: darkslategrey;
+}
+
+.main {
+  background-color: rgb(255, 253, 226);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border:0;
+  color: darkslategrey;
+
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: rgb(255, 253, 226);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border:0;
+  color: darkslategrey;
+}
