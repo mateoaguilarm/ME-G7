@@ -23,3 +23,7 @@ Agosto 16, 2021
 Agosto 17, 2021
 
     React Context
+
+Agosto 18, 2021
+
+    outClass: testText
