@@ -27,3 +27,5 @@ Agosto 17, 2021
 Agosto 18, 2021
 
     outClass: testText - 2
+
+    Forms with React Class
