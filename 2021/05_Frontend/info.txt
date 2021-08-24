@@ -29,3 +29,10 @@ Agosto 18, 2021
     outClass: testText - 2
 
     Forms with React Class
+
+// Semana 3
+
+Agosto 23, 2021
+
+    Test in 07_frontend-g7 about last topics
+    
