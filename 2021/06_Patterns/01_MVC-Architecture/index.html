@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="justify-content: center">MVC Architecture 🏗</h1>
+    <main>
+        <form onsubmit="view.addItem(e)">
+            <h3 class="titleDiv">To Do List</h3>
+            <input type="text" name="theTask" id="theTask">
+            <button id="btnAdd" type="submit">Add</button>
+            <div class="listPart">
+                <ul id="todo-list">
+                    <li>First Task
+                        <a href="">✅</a>
+                        <a href="">🟥</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </form>
+
+    </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="./app.js"></script>
+</body>
+
+</html>

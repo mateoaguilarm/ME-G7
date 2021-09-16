@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 700px;
+    height: 300px;
+}
+
+.titleDiv {
+    margin: 10px;
+}
+
+/* .formPart {
+    width: 100%;
+    margin: 30px;
+    padding: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+} */
