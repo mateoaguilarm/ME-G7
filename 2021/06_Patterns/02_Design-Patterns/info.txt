@@ -1,0 +1,5 @@
+Clase de Patterns // 21/09/2021
+
+Completo { 02_Builder } //commited
+
+Faltante { 01_Null-Object, 03_Facade } //remaining
