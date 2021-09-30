@@ -6,3 +6,5 @@ Iniciando Backend // 27/09/2021
     28/09/2021
         Introduciendo a Express
         
+    29/09/2021
+        Resolución de Retos/Ejercicios con Express.
