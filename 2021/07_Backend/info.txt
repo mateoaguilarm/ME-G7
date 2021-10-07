@@ -18,4 +18,6 @@ Semana 02 Backend // 04/10/2021
 
     06/10/2021
         Uso de pgAdmin
+
+        Practicando con SQL (dvdrental template) (ejercicios)
         
