@@ -9,9 +9,13 @@ Iniciando Backend // 27/09/2021
     29/09/2021
         Resolución de Retos/Ejercicios con Express.
 
-Semana 01 Backend // 04/10/2021
+Semana 02 Backend // 04/10/2021
 
     04/10/2021
         Introducion a Base de Datos
 
         Teoria y Practica con ejercicios fuera de codigo. (Diagramas)
+
+    06/10/2021
+        Uso de pgAdmin
+        
