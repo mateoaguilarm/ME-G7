@@ -21,3 +21,12 @@ Semana 02 Backend // 04/10/2021
 
         Practicando con SQL (dvdrental template) (ejercicios)
         
+    07/10/2021
+        Intro a Proyecto de Integrador
+
+Semana "03" (11/10/2021)
+    
+    Semana Libre
+
+    12/10/2021
+        Practica de Proyecto (fuera de clase)
