@@ -3,6 +3,7 @@
 const express = require('express');
 const helmet = require('helmet');
 const morgan = require('morgan');
+const router = require('./routes')
 
 const app = express();
 
@@ -13,8 +14,6 @@ app.use(morgan('dev'))
 app.use(helmet())
 
 // Endpoints
-app.get('/', (req, res) => {
-    res.status(200).send('Hola desde server!')
-});
+app.use('/api/v1', router);
 
 module.exports = app;
