@@ -7,3 +7,6 @@ coverage
 
 # Adding "template" folder "dvdrental" (SQL)
 dvdrental
+
+# Adding the .env.local extension
+.env.local

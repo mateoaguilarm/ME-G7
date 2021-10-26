@@ -2,19 +2,13 @@
 
 module.exports = {
 
+  // Development: Modo de Desarrollo. (Tiene datos de prueba, permite realizar experimentos)
   development: {
-    client: 'pg',
-    connection: {
-      filename: './dev.sqlite3'
-    }
-  },
-
-  staging: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      database: 'postgres',
+      user:     process.env.CONNECTION_USER,
+      password: process.env.CONNECTION_PASSWORD
     },
     pool: {
       min: 2,
@@ -25,12 +19,30 @@ module.exports = {
     }
   },
 
+  // Staging: Modo de Montaje. (Contiene datos parecidos al modo produccion para verificar que funcione)
+  staging: {
+    client: 'postgresql',
+    connection: {
+      database: 'postgres',
+      user:     process.env.CONNECTION_USER,
+      password: process.env.CONNECTION_PASSWORD
+    },
+    pool: {
+      min: 2,
+      max: 10
+    },
+    migrations: {
+      tableName: 'knex_migrations'
+    }
+  },
+
+  // Production: Modo de Produccion o en linea. (Contiene datos reales del software/business)
   production: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      database: 'postgres',
+      user:     process.env.CONNECTION_USER,
+      password: process.env.CONNECTION_PASSWORD
     },
     pool: {
       min: 2,
