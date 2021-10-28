@@ -20,6 +20,9 @@ app.use(
     })
 );
 
+// "Base de Datos"
+const books = [];
+
 // ENDPOINTS
 app.get('/', (req, res) => {
     // Crear/actualizar cookie views
@@ -39,6 +42,28 @@ app.post('/logout', (req, res) => {
     req.session = null;
     res.status(200).send({ message: 'Hola desde logout!', cookies: req.session });
 });
+
+app.get('/books', (req, res) => {
+    res.status(200).send({ message: 'Acá están los libros', books })
+})
+
+app.post('/books', (req, res) => {
+    const { name, author } = req.body;
+
+    if (!name || !author) {
+        return res.status(400).send({ message: 'Ingresa un name y author' })
+    }
+
+    const book = {
+        id: Math.floor(Math.random() * 1000),
+        name,
+        author
+    };
+
+    books.push(book)
+
+    res.status(200).send({ message: 'Libro creado satisfactoriamente!', book });
+})
 
 // LISTENER
 app.listen(PORT, () => console.log('Servidor corriendo'));
